@@ -71,7 +71,7 @@ dependencies {
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.3")
     implementation("androidx.navigation:navigation-ui-ktx:2.7.3")
 
-    // Glide
+    // Glide- Image loading
     implementation("com.github.bumptech.glide:glide:4.12.0")
     kapt("com.github.bumptech.glide:compiler:4.12.0")
 
@@ -83,6 +83,23 @@ dependencies {
     kapt("com.google.dagger:hilt-android-compiler:2.44")
     implementation("androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03")
     kapt("androidx.hilt:hilt-compiler:1.1.0-alpha01")
+
+    // Timber- Logging
+    implementation("com.jakewharton.timber:timber:4.7.1")
+
+    // Firebase Firestore
+    implementation("com.google.firebase:firebase-firestore:24.8.1")
+
+    // Firebase Storage KTX
+    implementation("com.google.firebase:firebase-storage-ktx:20.2.1")
+
+    // Firebase Coroutines
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.3")
+
+    // Media3- Exoplayer
+    implementation("androidx.media3:media3-exoplayer:1.1.1")
+    implementation("androidx.media3:media3-exoplayer-dash:1.1.1")
+    implementation("androidx.media3:media3-ui:1.1.1")
 }
 
 // Allow references to generated code
